@@ -20,6 +20,7 @@ public class MovieCatalogServiceApplication {
 	
 	@Bean
 	public WebClient.Builder getWebClientBuilder(){
+		
 		return WebClient.builder();
 	}
 
